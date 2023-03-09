@@ -32,3 +32,8 @@ def index(request):
     return render(request,'temp_stories/index.html', {'story': mystory})
 
 # Create your views here.
+
+def about(request):
+    fake = Faker()
+    aboutus = f"this page is about us. {fake.company()}"
+    return render(request,'temp_stories/about.html', {'about': aboutus})

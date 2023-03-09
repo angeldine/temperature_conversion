@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-sxxcm+7$q#y$cn48w2j82mlikb5mk90$+4iakr(t&=#@6fdkn_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['focusimpact-arizonanight-8000.codio-box.uk']
-CSRF_TRUSTED_ORIGINS = ['https://focusimpact-arizonanight-8000.codio-box.uk']
+ALLOWED_HOSTS = ['analogcommon-spraybison-8000.codio-box.uk']
+CSRF_TRUSTED_ORIGINS = ['https://analogcommon-spraybison-8000.codio-box.uk']
 
 # Application definition
 
