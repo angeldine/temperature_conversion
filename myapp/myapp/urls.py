@@ -21,4 +21,5 @@ urlpatterns = [
     path('', include('temp_stories.urls')),
     path('second/', include('second.urls')),
     path('convert/', include('convert.urls')),
+    path('about/', include('temp_stories.urls'))
 ]
