@@ -1,0 +1,13 @@
+    <!DOCTYPE html>
+    <html><head>
+    <title>Temperature Generator</title>
+    </head><body>
+    <h1>Temperature Generator</h1>
+    <form action="" method="post">
+    {% csrf_token %}
+    <p>Enter the temperature in fahrenheit to convert to celsius:</p>
+    <input type="number" name="t">
+    <input type="submit" value="Convert">
+    </form>
+    <p>Your converted temperature of {{temp}} in F is {{ con }} in C</p>
+    </body>
